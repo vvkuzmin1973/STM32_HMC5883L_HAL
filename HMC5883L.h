@@ -1,3 +1,10 @@
+/*
+
+	STM32_HMC5883L_HAL
+	https://github.com/vvkuzmin1973/STM32_HMC5883L_HAL
+	This library for STM32 HAL is based on ARDUINO library: https://github.com/jarzebski/Arduino-HMC5883L
+
+*/
 #ifndef HMC5883L_h
 #define HMC5883L_h
 
