@@ -143,7 +143,7 @@ hmc5883l_samples_t HMC5883L_getSamples(void)
 // Write byte to register
 void HMC5883L_writeRegister8(uint8_t reg, uint8_t value)
 {
-    HAL_I2C_Mem_Write(&hi2c2, HMC5883L_DEFAULT_ADDRESS, reg, 1 ,value,1,500);
+    HAL_I2C_Mem_Write(&I2C, HMC5883L_DEFAULT_ADDRESS, reg, 1 ,value,1,500);
 }
 
 // Read byte to register
